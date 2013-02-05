@@ -46,7 +46,7 @@ button:hover, .button:hover{
 
 .wrap{
 	margin: 0 auto;
-	width: 900px;
+	width: 1200px;
 }
 
 #header #top{
@@ -129,7 +129,7 @@ button:hover, .button:hover{
 #content #main{
 	float: right;
 	margin: 0 0 12px 0;
-	width: 680px;
+	width: 980px;
 }
 
 #content #main ul, #content #main ol{
@@ -278,7 +278,7 @@ button:hover, .button:hover{
 table{ 
 	border-collapse: collapse; 
 	margin: 15px; 
-	width: 650px; 
+	width: 950px; 
 }
 table th{ 
 	background: url(../img/bg_box_head.jpg) repeat-x;
@@ -355,7 +355,7 @@ table .chb{
 	margin: 0 auto;
 	padding: 8px 20px;
 	text-shadow: #111111 0px 1px 1px;
-	width: 860px;
+	width: 1160px;
 }
 #footer a{
 	color: #939393;

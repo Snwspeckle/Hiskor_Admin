@@ -27,11 +27,6 @@ switch ($_POST['type'])
     break;
 }
 
-function testing()
-{
-    echo "Hello";
-}
-
 function login()
 {
 

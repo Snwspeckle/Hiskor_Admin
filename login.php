@@ -1,7 +1,4 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<?php
-include "checkLogin.php";
-?>
 <html xmlns="http://www.w3.org/1999/xhtml" lang="pl" xml:lang="pl">
 <head>
 <meta http-equiv="content-type" content="text/html; charset=utf-8" />
@@ -16,11 +13,11 @@ include "checkLogin.php";
 			<div class="full_w">
 				<form action="checkLogin.php" method="post">
 					<label for="login">Username:</label>
-					<input id="login" name="login" class="text" />
+					<input id="login" name="username" class="text" />
 					<label for="pass">Password:</label>
-					<input id="password" name="password" type="password" class="text" />
+					<input id="pass" name="password" type="password" class="text" />
 					<div class="sep"></div>
-					<button type="submit" value="login" class="ok">Login</button> <a class="button" href="">Forgotten password?</a>
+					<button type="submit" class="ok">Login</button> <a class="button" href="">Forgotten password?</a>
 				</form>
 			</div>
 			<div class="footer">&raquo; <a href="">http://yourpage.com</a> | Admin Panel</div>
